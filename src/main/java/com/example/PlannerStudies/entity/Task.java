@@ -4,7 +4,6 @@ package com.example.PlannerStudies.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "Estudos")
 public class Task {
 
     @Id
@@ -12,18 +11,14 @@ public class Task {
     private Long id;
 
 
-    @Column(name = "Materia")
     private String matter;
 
-    @Column(name = "Titulo")
     private String title;
 
-    @Column(name = "Descricao")
     private String description;
 
-    @Column(name = "Status")
     private boolean isCompleted;
-
+    //---------------------------------------------------------------CONSTRUTORES --------------------------------------------------------------------
     public Task(Long id, String matter, String title, String description, boolean isCompleted) {
         this.id = id;
         this.matter = matter;
@@ -34,6 +29,8 @@ public class Task {
 
     public Task() {
     }
+
+    //---------------------------------------------------------------GETTERS E SETTERS --------------------------------------------------------------------
 
     public Long getId() {
         return id;
