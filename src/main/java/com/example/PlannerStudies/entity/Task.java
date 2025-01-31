@@ -4,7 +4,7 @@ package com.example.PlannerStudies.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "Tarefas-escola")
+@Table(name = "Estudos")
 public class Task {
 
     @Id
