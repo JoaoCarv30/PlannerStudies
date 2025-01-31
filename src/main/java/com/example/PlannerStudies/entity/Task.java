@@ -51,19 +51,19 @@ public class Task {
         this.matter = matter;
     }
 
-    public String getTitulo() {
+    public String getTitle() {
         return title;
     }
 
-    public void setTitulo(String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
 
-    public String getDescricao() {
+    public String getDescription() {
         return description;
     }
 
-    public void setDescricao(String description) {
+    public void setDescription(String description) {
         this.description = description;
     }
 
